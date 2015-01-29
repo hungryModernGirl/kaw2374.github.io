@@ -12,7 +12,12 @@ body {
   font-family: 'Quicksand', sans-serif;
   overflow:auto;
   size: 100% 100%;
+  background: #FFFFF5;
 
+}
+
+h1, h2, h3{
+  font-family: 'Pacifico', cursive;
 }
 
 div{
@@ -35,15 +40,19 @@ div{
   left:40px;
 }
 
-.main {
+.content {
   font-size: 20px;
-
-  position:absolute;
-  top:120px;
-  left:360px;
-    width:50%;
+  width:50%;
+  margin-left: 150px;
 }
 
+#about-me {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+#qualifications, #contact-me, #interests {
+  margin-bottom: 200px;
+}
 
 
 /* .nav-links */
